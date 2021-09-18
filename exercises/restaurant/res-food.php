@@ -1,75 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Website</title>
-    <link rel="stylesheet" href="./css/style.css">
-  
-</head>
-<body>
-    <!-- navbar start here -->
-        <div class="navbar">
-            <div class="container">
-                <div class="logo">
-                    <a href=""><img src="../restaurant/img/logo.png" alt="Restaurant Logo" class="img-responsive"></a>
-                </div>
-                <div class="menu text-right">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Categories</a></li>
-                        <li><a href="#">Foods</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-         
-        </div>
-    <!-- navbar end here -->
-    
-    <!-- search start here -->
-        <div class="food-search text-center">
-            <div class="container">
-                <form action="">
-                    <input type="search" name="search" id="" placeholder="Search for Food">
-                    <input type="submit" name="submit" value="Search" class="btn btn-primary">
-                </form>
-       
-            </div>
-        </div>
-    <!-- search end here -->
-        
-    <!-- categories start here -->
-        <div class="categories">
-            <div class="container">
-                <h2 class="text-center">Explore Foods</h2>
-                <a href="#">
-                    <div class="box-3 float-container">
-                        <img src="../restaurant/img/pizza.jpg" alt="Pizza" class="img-responsive img-curve">
-                        <h3 class="float-text text-white">Pizza</h3>
-                </div>
-                </a>
-                <a href="#">
-                    <div class="box-3 float-container">
-                        <img src="../restaurant/img//burger.jpg" alt="Pizza" class="img-responsive img-curve">
-                        <h3 class="float-text text-white">Burger</h3>
-                    </div>
-                </a>
-                <a href="">
-                <div class="box-3 float-container">
-                        <img src="../restaurant/img/momo.jpg" alt="Pizza" class="img-responsive img-curve">
-                        <h3 class="float-text text-white">Momo</h3>
-                </div>
-                </a>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    <!-- categories end here -->
-        
+<?php include("res-header.php") ?>
+
     <!-- menu start here -->
-        <div class="food-menu">
+    <div class="food-menu">
             <div class="container">
                 <h2 class="text-center">Food Menu</h2>
                 <div class="food-menu-box">
@@ -155,25 +87,5 @@
             </div>
         </div>
     <!-- menu end here -->
-        
-    <!-- social start here -->
-        <div class="social">
-            <div class="container text-center">
-                <ul class="social-list">
-                    <li><a href="#"><img class="img-social" src="https://img.icons8.com/color/48/000000/facebook-new.png"/></a></li>
-                    <li><a href="#"><img class="img-social" src="https://img.icons8.com/color/100/000000/instagram-new--v1.png"/></a></li>
-                    <li><a href="#"><img class="img-social" src="https://img.icons8.com/color/100/000000/twitter--v1.png"/></a></li>
-                </ul>
-            </div>
-        </div>
-    <!-- social end here -->
-        
-    <!-- footer start here -->
-        <div class="footer">
-            <div class="container text-center">
-                <p>All rights reserved. Designed by <a href="#" >Goc Khuat</a></p>
-            </div>
-        </div>
-    <!-- footer end here -->
-</body>
-</html>
+
+<?php include("res-footer.php") ?>
