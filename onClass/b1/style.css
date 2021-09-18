@@ -1,0 +1,10 @@
+body{
+    margin: 0px;
+}
+#header{
+    height: 100px;
+}
+.logo{
+    width: 40%;
+    height: auto;
+}
