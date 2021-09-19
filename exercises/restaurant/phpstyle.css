@@ -47,6 +47,7 @@ a:hover{
 h2{
     color: #2f3542;
     font-size: 2rem;
+    margin-bottom: 2%;
 }
 h3{
     font-size: 1.5rem;
@@ -155,7 +156,29 @@ background-color: #ececec;
 .footer, .social{
     background-color: #fffdfd;
 }
-
+/* order php */
+.order {
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 95%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
 /* css for mobile size or smaller screen */
 @media only screen and (max-width : 768px){
     .logo{
@@ -209,5 +232,8 @@ background-color: #ececec;
     }
     .footer{
         width: 95%;
+    }
+    .order{
+        width: 100%;
     }
 }

@@ -13,7 +13,7 @@
         <div class="navbar">
             <div class="container">
                 <div class="logo">
-                    <a href=""><img src="../restaurant/img/logo.png" alt="Restaurant Logo" class="img-responsive"></a>
+                    <a href="res.php"><img src="../restaurant/img/logo.png" alt="Restaurant Logo" class="img-responsive"></a>
                 </div>
                 <div class="menu text-right">
                     <ul>
