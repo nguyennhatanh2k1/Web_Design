@@ -1,0 +1,19 @@
+.container{
+    text-align: center;
+    width: 30%;
+}
+h1{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.form-control {
+	border-radius: 0;
+}
+.btn{
+    margin-top: 10px;
+}
+.col{
+    margin-top: 150px;
+}
+.label{
+    margin-top: 15px;
